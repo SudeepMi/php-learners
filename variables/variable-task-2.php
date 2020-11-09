@@ -1,7 +1,7 @@
 <?php 
 
-$1stname  = "Mr";
-$2ndname = "Joe";
+$firstname  = "Mr";
+$secondname = "Joe";
 
-echo $1stname.$2ndname;
+echo $firstname.$secondname;
 

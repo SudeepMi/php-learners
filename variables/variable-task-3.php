@@ -1,7 +1,7 @@
 <?php
 
-$-maths = 50;
+$_maths = 50;
 $_english = 78;
-$_ = 90;
+$_= 90;
 
-echo "Total marks: ".$-maths+$_english+$_;
+echo "Total marks: "+$_maths+$_english+$_;
