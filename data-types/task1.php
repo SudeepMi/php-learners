@@ -5,14 +5,14 @@
 
 //your code here
 
-$x = "hello";
-$y = 123;
-$z = NULL;
-$a = True;
-$b = 10.89;
+$string = "hello";
+$integer = 123;
+$null = NULL;
+$boolean = True;
+$float = 10.89;
 
-var_dump($x);
-var_dump($y);
-var_dump($z);
-var_dump($a);
-var_dump($b);
+var_dump($string);
+var_dump($integer);
+var_dump($null);
+var_dump($boolean);
+var_dump($float);
