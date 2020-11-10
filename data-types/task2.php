@@ -2,7 +2,7 @@
 
 //DEBUG THE BELOW CODE
 
-$greetings = Hello world;
+$greetings ="Hello world";
 
 var_dump($greetings);
 
