@@ -41,19 +41,19 @@ width: 90%;
             <h1>Patient form</h1>
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text">
+                <input type="text" id="name">
             </div>
             <div class="form-group">
-                <label for="name">Age</label>
-                <input type="number">
+                <label for="age">Age</label>
+                <input type="number" id="age">
             </div>
             <div class="form-group">
-                <label for="name">Height</label>
-                <input type="float">
+                <label for="height">Height</label>
+                <input type="number" step="any" />
             </div>
             <div class="form-group">
-                <label for="name">Disabled</label>
-                <select name="" id="">
+                <label for="disabled">Disabled</label>
+                <select name="" id="disabled">
                     <option value="">true</option>
                     <option value="">False</option>
 
