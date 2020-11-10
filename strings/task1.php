@@ -1,7 +1,7 @@
 <?php
 
-$1greetings = Hello programmer;
+$greetings = "Hello programmer";
 
-// $string_legnth = ""; //length of given variable.
+$string_length = strlen($greetings); //length of given variable.
 
-echo "String length : ".$string_length
+echo "String length ".$string_length;

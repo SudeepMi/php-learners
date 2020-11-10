@@ -3,6 +3,6 @@
 //Debug the given code
 
 $intro = "Hey, you are welcome to our team";
-$length = stringlenght($intro);
+$length = strlen($intro);
 
 echo $length;
