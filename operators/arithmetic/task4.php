@@ -4,6 +4,9 @@
 // now use a constant to calculate PI to raise 4th power.
 
 define("PI" , pi());
-  $calc = pi()**4;
 
-  echo $calc;
+//we have to use PI constant instead if pi function
+
+$calc = PI**4;
+
+echo $calc;
