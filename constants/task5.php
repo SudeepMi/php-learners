@@ -11,14 +11,14 @@
 define("PI" , pi());
 
 $r = rand(20 , 30);
-$roc = 2 * pi() *$r;
+$roc = 2 * PI *$r;
 define("roc" , $roc);
 echo roc;
 
 echo "<br>";
 
 $r = rand(20 , 30);
-$aoc = pi() * $r * $r;
+$aoc = PI * $r * $r;
 define("aoc" , $aoc);
 echo var_dump(aoc);
 echo "<br>";
