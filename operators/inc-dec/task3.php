@@ -1,8 +1,8 @@
 <?php
 $x = 11;
 
-$x++;
-
---$x;
+echo($x++);
+echo "<br>";
+echo(--$x);
 
 //geuss the result
