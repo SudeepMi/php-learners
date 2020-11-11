@@ -8,7 +8,7 @@
 
 //code here
 
-define("PI" , "value");
+define("PI" , "pi()");
 echo pi();
 
 echo "<br>";
