@@ -8,4 +8,24 @@
 
 //code here
 
+define("PI" , "value");
+echo pi();
+
+echo "<br>";
+
+$r = rand(20 , 30);
+$roc = 2 * pi() *$r;
+define("roc" , $roc);
+echo roc;
+
+echo "<br>";
+
+$r = rand(20 , 30);
+$aoc = pi() * $r * $r;
+define("aoc" , $aoc);
+echo var_dump(aoc);
+echo "<br>";
+
+
+echo (int)aoc;
 
