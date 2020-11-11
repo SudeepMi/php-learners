@@ -8,10 +8,7 @@
 
 //code here
 
-define("PI" , "value");
-echo pi();
-
-echo "<br>";
+define("PI" , pi());
 
 $r = rand(20 , 30);
 $roc = 2 * pi() *$r;
