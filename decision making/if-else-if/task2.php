@@ -6,13 +6,20 @@
 $var = rand(1 , 5);
 
 if($var == 1){
-    print "first";
-} elseif ($var == 2){
-    print "second";
-} elseif($var == 3){
-    print "third";
-} elseif($var == 4){
-    print "fourth";
-} else($var == 5){
-    print "fifth";
+    echo "first";
+} 
+elseif ($var == 2){
+    echo "second";
+} 
+elseif($var == 3){
+    echo "third";
+} 
+elseif($var == 4){
+    echo "fourth";
+} 
+//else($var == 5){  //we don't have condition in else
+//     echo "fifth";
+// }
+else{
+    echo "fifth";
 }

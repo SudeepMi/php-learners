@@ -6,17 +6,22 @@
 $var = rand(1 , 7);
 
 if ($var == 1){
-    print "sunday";
+    echo "sunday";
 } elseif ($var == 2) {
-    print "monday";
+    echo "monday";
 } elseif($var == 3){
-    print "tuesday";
+    echo "tuesday";
 }elseif($var == 4){
-    print "wednesday";
+    echo "wednesday";
 }elseif($var == 5){
-    print "thuesday";
+    echo "thuesday";
 }elseif($var == 6){
-    print "friday";
-}else($var == 7){
-    print "saturday";
+    echo "friday";
+}
+// }else($var == 7){
+//     echo "saturday";
+// }
+
+else{
+    echo "saturday";
 }
