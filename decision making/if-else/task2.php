@@ -4,7 +4,9 @@
 
 $number = rand(50 , 60);
 
-if ($number / 2){
+$result = $number % 2;
+
+if ($number == 0){
     echo "even";
 } else {
     echo "odd";
