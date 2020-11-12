@@ -4,8 +4,8 @@
 
 $marks = 40;
 
-if $marks<50{
+if ($marks<50){
     echo "fail";
-}else(
+} else{
     echo "pass";
-)
+}
