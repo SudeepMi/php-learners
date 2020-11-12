@@ -4,6 +4,8 @@ $num = 78;
 
 //print hello if given variable is even.
 
-if ($num / 2 ){
-    echo "hello";
+$result = $num % 2;
+
+if($result == 0){
+    print "even";
 }
