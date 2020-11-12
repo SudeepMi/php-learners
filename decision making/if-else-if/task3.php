@@ -17,6 +17,6 @@ if ($var == 1){
     print "thuesday";
 }elseif($var == 6){
     print "friday";
-}else($var == 7){
+}else{
     print "saturday";
 }

@@ -13,6 +13,6 @@ if($var == 1){
     print "third";
 } elseif($var == 4){
     print "fourth";
-} else($var == 5){
+} else{
     print "fifth";
 }
