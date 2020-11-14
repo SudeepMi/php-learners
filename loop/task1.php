@@ -2,6 +2,6 @@
 
 // DEBUG
 
-for ($i=0, $i < 5, $i++) { 
-    echo $i </br>;
+for ($i=0; $i <= 5; $i++) { 
+    echo "$i <br>";
 }
