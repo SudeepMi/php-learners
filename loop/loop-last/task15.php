@@ -5,7 +5,7 @@
 // DEBUG
 
 for ($num == 1; $num = 10; $num = 2) { 
-	echo $num \n; 
+	echo "$num n"; 
 } 
 
 
