@@ -4,6 +4,6 @@
 $sum = 5;
 for($i = 5; $i <= 50; $i+=2){
    $sum = $sum + $i;
+}
    
         echo "sum is :$sum<br>";
-}
