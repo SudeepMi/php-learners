@@ -4,3 +4,12 @@
 
 //Hint:   Square(num) -> returns num*num
 // storing in variable --> $square = Square(num)
+
+function square($num){
+    $square = $num * $num;
+    $number =  $square;
+    echo $number;
+
+}
+
+square(7);
