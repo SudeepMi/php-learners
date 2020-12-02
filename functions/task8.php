@@ -5,9 +5,9 @@
 // 2.  also accepts an argument
 // 3. prints the cube of number
 
-function cube($num){
+function cube($num = 3){
 $number = $num * $num * $num;
-echo $number;
+echo "$number <br>";
 }
-
+cube();
 cube(2);
