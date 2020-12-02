@@ -7,9 +7,12 @@
 
 function square($num){
     $square = $num * $num;
-    $number =  $square;
-    echo $number;
+    return $square;
+   
 
 }
+$square =square(4);
 
-square(7);
+
+
+print $square;
