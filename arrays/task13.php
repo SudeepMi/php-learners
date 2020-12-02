@@ -20,3 +20,6 @@ $student = array(
     ),
 
 );
+
+// 1. Dump the whole array using vardump function
+// 2. Access your name and marks, and print it.
