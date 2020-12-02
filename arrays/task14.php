@@ -1,5 +1,6 @@
-<?php
 
+
+<?php
 
 $student = array(
     array(
@@ -22,6 +23,10 @@ $student = array(
 );
 
 
-//print all information given in array 
 
-// note: please use some html tags for beautifying it.
+?>
+
+
+<!-- //print all information given in array 
+
+// note: please use some html tags for beautifying it. -->
