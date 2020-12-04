@@ -23,3 +23,20 @@ $student = array(
 
 // 1. Dump the whole array using vardump function
 // 2. Access your name and marks, and print it.
+
+
+//1. Dumping the whole array
+
+<pre>
+    var_dump($student);
+</pre>
+
+//2. Access your name and marks, and print it.
+
+// accessing the index, my name lies in 0 index i.e $student[0] and 
+// now accessing my name within the index $student[0]["name"] and same for marks
+
+// your code here
+    
+    
+
