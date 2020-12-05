@@ -3,7 +3,7 @@
 
 <?php
 
-$students = array(
+$student= array(
     array(
         "name"=>"sudeep",
         "marks" => 50
@@ -84,11 +84,6 @@ foreach($student[$i] as $key => $value){
 // note: please use some html tags for beautifying it. -->
 
 
-<?php
-
-foreach ($student as $key => $value) {
-    # code...
-}
 
 
 

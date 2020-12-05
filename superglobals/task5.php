@@ -7,7 +7,7 @@
 <html>
 <body>
 
-<form method="post" action="/">
+<form method="post" action="">
   Name: <input type="text" name="fname">
   <input type="submit">
 </form>
