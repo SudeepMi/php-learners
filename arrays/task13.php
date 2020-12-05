@@ -28,9 +28,8 @@ $student = array(
 
 //1. Dumping the whole array
 
-<pre>
-  <?php   var_dump($student); ?>
-</pre>
+
+  <?php  var_dump($student); ?>
 
 //2. Access your name and marks, and print it.
 
@@ -41,9 +40,11 @@ $student = array(
 <?php
 
 // your code here
+echo "<br>";
+echo $student[1]["name"];
+echo $student[1]["marks"];
 
 
 ?>
     
-    
-
+  
