@@ -22,48 +22,57 @@ $student = array(
     ),
 
 );
-echo "<tr>";
-echo "<th>Name</th>";
-echo "<th>Mark</th>";
-echo "</tr>";
+echo('<tr>');
+for($i=0;$i<count($student);$i++) {
+    
+foreach($student[$i] as $key => $value){
+    echo  $key , $value;
+    echo "<br>";
+}
+    echo('</tr>');
+  }
+// echo "<tr>";
+// echo "<th>Name</th>";
+// echo "<th>Mark</th>";
+// echo "</tr>";
 
 
-echo "<tr>";
-echo "<td>";
-echo $student[0]["name"];
-echo "</td>";
-echo "<td>";
-echo $student[0]["marks"];
-echo "</td>";
-echo "</tr>";
+// echo "<tr>";
+// echo "<td>";
+// echo $student[0]["name"];
+// echo "</td>";
+// echo "<td>";
+// echo $student[0]["marks"];
+// echo "</td>";
+// echo "</tr>";
 
 
-echo "<tr>";
-echo "<td>";
-echo $student[1]["name"];
-echo "</td>";
-echo "<td>";
-echo $student[1]["marks"];
-echo "</td>";
-echo "</tr>";
+// echo "<tr>";
+// echo "<td>";
+// echo $student[1]["name"];
+// echo "</td>";
+// echo "<td>";
+// echo $student[1]["marks"];
+// echo "</td>";
+// echo "</tr>";
 
-echo "<tr>";
-echo "<td>";
-echo $student[2]["name"];
-echo "</td>";
-echo "<td>";
-echo $student[2]["marks"];
-echo "</td>";
-echo "</tr>";
+// echo "<tr>";
+// echo "<td>";
+// echo $student[2]["name"];
+// echo "</td>";
+// echo "<td>";
+// echo $student[2]["marks"];
+// echo "</td>";
+// echo "</tr>";
 
-echo "<tr>";
-echo "<td>";
-echo $student[3]["name"];
-echo "</td>";
-echo "<td>";
-echo $student[3]["marks"];
-echo "</td>";
-echo "</tr>";
+// echo "<tr>";
+// echo "<td>";
+// echo $student[3]["name"];
+// echo "</td>";
+// echo "<td>";
+// echo $student[3]["marks"];
+// echo "</td>";
+// echo "</tr>";
 
 
 ?>
