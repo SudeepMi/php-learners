@@ -1,5 +1,5 @@
 
-<table border = 1>
+<table border= 1>
 
 <?php
 
@@ -23,9 +23,9 @@ $students = array(
 
 );
 echo('<tr>');
-for($i=0;$i<count($student);$i++) {
+for($i=0;$i<count($students);$i++) {
     
-foreach($student[$i] as $key => $value){
+foreach($students[$i] as $key => $value){
     echo  $key , $value;
     echo "<br>";
 }
@@ -77,18 +77,6 @@ foreach($student[$i] as $key => $value){
 
 ?>
 </table>
-
-
-<!-- //print all information given in array 
-
-// note: please use some html tags for beautifying it. -->
-
-
-<?php
-
-foreach ($student as $key => $value) {
-    # code...
-}
 
 
 
