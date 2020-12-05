@@ -2,7 +2,7 @@
 
 <?php
 
-$student = array(
+$students = array(
     array(
         "name"=>"sudeep",
         "marks" => 50
@@ -30,3 +30,13 @@ $student = array(
 <!-- //print all information given in array 
 
 // note: please use some html tags for beautifying it. -->
+
+
+<?php
+
+foreach ($student as $key => $value) {
+    # code...
+}
+
+
+
