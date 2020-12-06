@@ -11,7 +11,7 @@
 <html>
 <body>
 
-<form method="" action="">
+<form method="get" action="">
   Model: <input type="text" name="model">
   color: <input type="text" name="color">
   company: <input type="text" name="company">
