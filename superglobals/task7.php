@@ -11,13 +11,14 @@
 <html>
 <body>
 
-<form method="" action="">
+<form method="GET" action="">
   Model: <input type="text" name="model">
   color: <input type="text" name="color">
   company: <input type="text" name="company">
   <input type="submit">
 </form>
 <?php
+
 if($_SERVER["REQUEST_METHOD"] == "GET"){
     $model = $_GET["model"];
     $color = $_GET["color"];
