@@ -8,7 +8,7 @@
     // 4. print the result.
     ?>
     <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
             //print output here
             if($_SERVER["REQUEST_METHOD"] == "POST"){
                 $name = $_POST["name"];
-                echo "My name is ." , $name;
+                echo "My name is " , $name;
                 echo "<br>";
                 echo "The number of word in given text is " , strlen($name);
                 echo "<br>";

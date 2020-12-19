@@ -19,13 +19,17 @@
     <div class="output">
     <h4>output</h4>
     <?php
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
         $num = $_POST["number"];
        
-    for ($i=1; $i<=10; $i++){
-        $mul = $num * $i;
-        echo "$num * $i = $mul<br>";
+        for ($i=1; $i<=10; $i++){
+            $mul = $num * $i;
+            echo "$num * $i = $mul<br>";
+    
+        }
 
     }
+       
     
        
     

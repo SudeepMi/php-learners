@@ -16,23 +16,36 @@
     <link rel="stylesheet" href="style.css" class="src">
 </head>
 <body>
+    <form method="post" action ="">
 <label for="course">course</label>
-            Red<input type="checkbox" name = "course">
-            Blue<input type="checkbox" name = "course">
-            Yellow<input type="checkbox" name = "course">
-            White<input type="checkbox" name = "course">
-            Green<input type="checkbox" name = "course">
+            Red<input type="checkbox" name = "course[]" value="Red"> 
+            Blue<input type="checkbox" name = "course[]" value = "blue">
+            Yellow<input type="checkbox" name = "course[]" value = "yellow">
+            White<input type="checkbox" name = "course[]" value = "white">
+            Green<input type="checkbox" name = "course[]" value = "green">
         <input type="submit" name="submit" value="SUBMIT" />
+</form>
 
         <div class="output">
             <h4>output</h4>
             <?php
             if($_SERVER["REQUEST_METHOD"] == "POST"){
-                $items = $_POST["course"];
-                echo $items;
+                $allcourse = '';
+                $course = $_POST["course"];
+                for($i = 0; $i < count($course); $i++){
+                    $allcourse .= $course[$i] . " ,";
+                }
+                 echo $allcourse;
             }
 
             ?>
         </div>
 </body>
 </html>
+<!-- yetikai herna tw milxa, umm milxa submit nai hunna, didi lai hattar xa?????   xaena, 
+
+value rakhna chodnu vaaxa checkbox ma hana vaxa ki nai, yes vaako xa
+
+
+
+-->

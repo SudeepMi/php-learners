@@ -37,9 +37,51 @@
     <h4>output</h4>
     <?php
     if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+        // var_dump($_POST);
         $num1 = $_POST["firstnumber"];
         $num2 = $_POST["secondnumber"];
-        if()
+        $operator = $_POST["operator"];
+
+        //DIDI?? you there?yes i am here, ok
+
+        // now we have two approach, either to use  switch case or multiple if statement , you got that??
+        // yes ok
+        // we have operators : add, mul,div,sub,mod so,
+        // you go on, ma herxu
+        // good,  didi, hjur, tala ko sabai if condition madhye kunai euta matra satisfy hunxa right?yes
+        // so you have to print the result within the if condition. or you can make a global variable 
+        //  assign the result of al if condition. 
+        // got yes aba result equal garni, yesto garda ramro check garm, sure vayo , umm vayo
+        if($operator == "add"){
+             $sum = $num1 + $num2;
+             echo  "sum is $sum";
+        }
+        if ($operator == "mul"){
+            $mul = $num1 * $num2;
+            echo  "product is $mul";
+
+        }
+
+        if($operator == "div"){
+            $div = $num1 / $num2;
+            echo  "division is $div";
+
+        }
+
+        if($operator == "sub"){
+            $sub = $num1 - $num2;
+            echo  "sub is $sub";
+
+        }
+
+        if($operator == "mod"){
+            $mod = $num1 % $num2;
+            echo  "mod is $mod";
+
+        }
+
+        
     }
 
     ?>

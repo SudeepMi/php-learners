@@ -20,7 +20,7 @@
         <label for="name">Book name</label>
         <input type="text" name = "bookname" placeholder="bookname" autocomplete>
         <label for="date">Date of issue</label>
-        <input type="text" name = "bookissue" placeholder="date of issue" autocomplete>
+        <input type="date" name = "bookissue" placeholder="date of issue" autocomplete>
         <label for="date">Issued to</label>
         <input type="text" name = "issued" placeholder="Issued to" autocomplete>
 
