@@ -8,6 +8,14 @@
 // examole : input--> this is sudeep from kathmandu
 // output---> longest word : kathmandu, length: 9
 //         new string: tttttthis tttttttis tttsudeep tttttfrom kathmandu
+
+
+// hint
+// 1. Take input from user
+// 2. use explode function to change string to array
+// 3. use for loop and array from 2 to find the word having max length (use strlen() function)
+// 4. find the first letter of string using strsplit function
+// 5. use for loop, while loop and an array from 2 to append the first letter.
 ?>
 <!DOCTYPE html>
 <html lang="en">
