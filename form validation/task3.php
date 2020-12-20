@@ -8,7 +8,27 @@
 </head>
 <body>
 <div class="output">
-    <h4> YOU ARE LOGIN SUCCESSFULLY</h4>
+<?php
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
+        
+        if ($_POST["username"] =="" || $_POST["password"] =="") {
+            echo "All fields are required !!";
+         }else{
+            $name = $_POST["username"];
+            $password = $_POST["password"];
+            $username = "a@b.c";
+            $pass = "0123456789";
+            if($username == $name && $pass == $password){
+                echo "welcome";
+            }else{
+                echo "your username and password is incorrect";
+            }
+         }
+       
+
+       
+    }
+    ?>
 
 </div>
         
