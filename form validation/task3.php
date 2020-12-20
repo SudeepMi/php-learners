@@ -7,18 +7,10 @@
     <link rel="stylesheet" href="./php-learners/./form-handling/style.css" class="src">
 </head>
 <body>
-<form action="" method="post">
-        <label for="name">First name</label>
-        <input type="text" name="firstName" id="name" placeholder="First Name" autocomplete>
-        <label for="lastName">Last Name</label>
-        <input type="text" name="lastName" id="lastName" placeholder="Last name" autocomplete>
-        <input type="submit" name="submit" value="SUBMIT" />
-    </form>
+<div class="output">
+    <h4> YOU ARE LOGIN SUCCESSFULLY</h4>
 
-    <div class="output">
-        <h4>output</h4>
-        <?php
-        ?>
+</div>
         
     
 </body>

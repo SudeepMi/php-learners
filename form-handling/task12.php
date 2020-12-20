@@ -45,7 +45,8 @@
 <!-- yetikai herna tw milxa, umm milxa submit nai hunna, didi lai hattar xa?????   xaena, 
 
 value rakhna chodnu vaaxa checkbox ma hana vaxa ki nai, yes vaako xa
-
-
+milyo,yes next ki sutne,sutne aba huss, huss  good night, goodnight didi mero voli bata internal ho kae aauna subject nee taha xaena ava hernu parxa huss hunxa, kun sem rey tapai?7sem ah ah
+connect katey huss 
+huss hunxa
 
 -->
