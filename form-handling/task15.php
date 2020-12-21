@@ -79,6 +79,12 @@ garam
 
 aba garnus milyo, cond right huda ne kna echo aayo
 
+yesto vayo, last ma else halnu vayo hajur and if 8 vayo vaney tyo gar na vaye else ma ko gar vanyya ho i .. so teha vako milena vane else print garna kojeko maile
+
+multiple if condition ma kunai euta lai satisdfy garaye pugxa , if hajur lai elsema ni print garaunu xa vanney use switch case
+garnus ta default garerw garna milxa uta tw vo aaela try nagarm ok
+mero progress kasto xa , going good, ramro xa, awesome tq u 
+
 
 
 

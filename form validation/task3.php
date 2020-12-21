@@ -7,18 +7,30 @@
     <link rel="stylesheet" href="./php-learners/./form-handling/style.css" class="src">
 </head>
 <body>
-<form action="" method="post">
-        <label for="name">First name</label>
-        <input type="text" name="firstName" id="name" placeholder="First Name" autocomplete>
-        <label for="lastName">Last Name</label>
-        <input type="text" name="lastName" id="lastName" placeholder="Last name" autocomplete>
-        <input type="submit" name="submit" value="SUBMIT" />
-    </form>
+<div class="output">
+<?php
+    if($_SERVER["REQUEST_METHOD"] == "POST"){
+        
+        if ($_POST["username"] =="" || $_POST["password"] =="") {
+            echo "All fields are required !!";
+         }else{
+            $name = $_POST["username"];
+            $password = $_POST["password"];
+            $username = "a@b.c";
+            $pass = "0123456789";
+            if($username == $name && $pass == $password){
+                echo "welcome";
+            }else{
+                echo "your username and password is incorrect";
+            }
+         }
+       
 
-    <div class="output">
-        <h4>output</h4>
-        <?php
-        ?>
+       
+    }
+    ?>
+
+</div>
         
     
 </body>

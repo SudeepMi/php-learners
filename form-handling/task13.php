@@ -52,13 +52,13 @@ broswer ma heram
  2. explode()
  - split string to array.
 
- didi?hjur, hajur le last task gare jastai request method check garnus a
+ didi?hjur, hajur le last task gare jastai request method check garnus a , helo yes, result heryau, yes, mileko xa ta
 
 result hernu vo? um , " " vaneko chae string ma vaako each space paxi break gar vanya jasto huss bujey, sure?umm main kura explode k ho bujna pparne raixa
 yes exactly, aba do something ffor me
 
 maile chae I,am,sudeep,from,kathmandu,and,i,love,tea type garxu i nedd this string in array. saknu hunxa?mathi ko jastai ho hoina rw.. ho la tyo text lai copy
 garera input ma paste garnus ta and see the teha kae garna parxa ho, hajur, jasri yo vanda agai space haleko them aba comma halnu paryo tya
-agi maile space raekeko vayerw ho ho
+agi maile space raekeko vayerw ho ho yessssssssssss okay
 typ <pre> ??
  -->
