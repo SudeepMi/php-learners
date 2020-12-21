@@ -41,38 +41,7 @@
         $Array = explode( " " ,$input);
         $new_array = array($Array);
         echo  "max($new_array)";
-
         
-=======
-
-       $words = explode(" ",$input);
-
-       $maxLen=0;
-       $maxLenWord='';
-
-       for ($i=0; $i < count($words); $i++) { 
-          if (strlen($words[$i]) > $maxLen) {
-                $maxLen = strlen($words[$i]);
-                $maxLenWord = $words[$i];
-          }
-       }
-
-    
-    $firstLetter = $input[0];
-    
-      echo "Word having max length : $maxLenWord"." Length: $maxLen";
-
-      echo "<br />";
-
-      for ($i=0; $i < count($words); $i++) { 
-        while ($maxLen != strlen($words[$i])) {
-            $words[$i] = $firstLetter.$words[$i]; 
-        }
-     }
-
-     $newString = implode(" ",$words);
-     echo $newString;
->>>>>>> df299ebf3597307b0874036c99115eb3923908c2
         
     }
     ?>
