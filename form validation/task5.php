@@ -37,7 +37,6 @@
     <?php
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $input = $_POST["message"];
-<<<<<<< HEAD
         $Array = explode( " " ,$input);
         $new_array = array($Array);
         echo  "max($new_array)";
