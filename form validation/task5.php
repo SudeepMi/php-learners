@@ -38,7 +38,7 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $input = $_POST["message"];
 
-       $words = explode(" ",$input);
+       $words = explode(" ",$input); ///string to array
 
        $maxLen=0;
        $maxLenWord='';
