@@ -22,6 +22,31 @@
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $name = $_POST["username"];
     $pass = $_POST["password"];
+    $myfile = fopen("demo.txt", "r");
+    $filedata =  fread($myfile,filesize("demo.txt"));
+    $words = explode("\n", $filedata);
+    $userNameExtra = $words[0];
+    $passwordExtra = $words[1];
+    $username = explode("=", $userNameExtra);
+    $username = stripslashes($username[1]);
+    $username = trim(($username));
+    $password = explode("=",$passwordExtra);
+    $password =stripslashes($password[1]);
+    $password =trim($password);
+
+    
+   
+    if ($name == $username && $pass == $password) {
+       echo "you are logged in";
+    }else{
+        echo "oops!!";
+    }
+
+    
+
+
+    
+
 }
 ?>
     
