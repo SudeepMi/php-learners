@@ -1,4 +1,15 @@
 <?php
 
 
-//remove the cookie you made in task1 and check if it exist
+
+setcookie("username");
+?>
+<html>
+<body>
+
+<?php
+echo "Cookie 'user' is deleted.";
+?>
+
+</body>
+</html> 
